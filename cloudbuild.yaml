@@ -1,0 +1,7 @@
+steps:
+- name: mirror.gcr.io/library/golang
+  args: ['go', 'mod', 'init', 'github.com/your/import/path']
+- name: golang
+  env: ['GO111MODULE=on']
+  args: ['go','build','.']
+
