@@ -1,3 +1,3 @@
 # build-with-go-modules
 hey
-t
+th
