@@ -2,4 +2,4 @@
 
 mercury
 venus
-ear
+eart
