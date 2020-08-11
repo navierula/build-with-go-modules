@@ -2,4 +2,4 @@
 
 mercury
 venus
-earthh
+earth
