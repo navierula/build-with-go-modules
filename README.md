@@ -2,7 +2,7 @@
 
 mercury
 venus
-earthh
+eart
 lov
 
 l
