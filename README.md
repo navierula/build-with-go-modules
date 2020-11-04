@@ -3,6 +3,6 @@
 mercury
 venus
 earthh
-love
+lov
 
 love
