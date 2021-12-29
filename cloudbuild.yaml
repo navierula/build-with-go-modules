@@ -1,9 +1,7 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', '${_IMAGE_NAME}', '.']
-substitutions:
-    _IMAGE_NAME: 'gcr.io/${PROJECT_ID}/test-image'
-options:
-    dynamic_substitutions: true
-
+- name: golang
+  args: ['go', 'mod', 'init', 'github.com/your/import/path']
+- name: golang
+  env: ['GO111MODULE=on']
+  args: ['go','build', '.']
 
